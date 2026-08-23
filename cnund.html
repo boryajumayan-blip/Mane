@@ -1,0 +1,3264 @@
+<!DOCTYPE html>
+<html lang="hy">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width,
+initial-scale=1.0,
+maximum-scale=1.0,
+user-scalable=no">
+
+<title>Մանեի 6-ամյակը 🧜🏻‍♀️💗✨</title>
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Marck+Script&family=Montserrat:wght@300;400;500;600;700&display=swap"
+rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html,
+body{
+width:100%;
+height:100%;
+}
+
+body{
+font-family:'Montserrat',sans-serif;
+color:#5b4c69;
+overflow:hidden;
+touch-action:none;
+background:#ffeaf5;
+}
+
+:root{
+--pink:#f5a9c7;
+--pink-light:#ffd9e8;
+--pink-soft:#fff0f7;
+--purple:#b99ad8;
+--purple-light:#eadcf7;
+--turquoise:#72d1d4;
+--turquoise-light:#c9f3f1;
+--aqua:#8edfe0;
+--cream:#fffaf5;
+--gold:#d9b96e;
+--text:#66536f;
+}
+
+.page{
+position:fixed;
+inset:0;
+width:100%;
+height:100vh;
+overflow:hidden;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+opacity:0;
+visibility:hidden;
+
+transform:translateY(100%);
+
+transition:
+opacity .65s ease,
+transform .75s cubic-bezier(.22,.61,.36,1),
+visibility .65s;
+
+background:
+radial-gradient(
+circle at 15% 10%,
+rgba(255,255,255,.98),
+transparent 28%
+),
+radial-gradient(
+circle at 90% 15%,
+rgba(255,190,218,.65),
+transparent 30%
+),
+radial-gradient(
+circle at 15% 85%,
+rgba(193,173,239,.38),
+transparent 30%
+),
+linear-gradient(
+145deg,
+#fff4fa,
+#e7fafa,
+#f8e9ff
+);
+}
+
+.page.active{
+opacity:1;
+visibility:visible;
+transform:translateY(0);
+z-index:10;
+}
+
+.page.go-up{
+transform:translateY(-100%);
+opacity:0;
+}
+
+.page.from-bottom{
+transform:translateY(100%);
+}
+
+.page.from-top{
+transform:translateY(-100%);
+}
+
+
+/* ================= BACKGROUND ================= */
+
+.light{
+position:absolute;
+border-radius:50%;
+filter:blur(18px);
+pointer-events:none;
+z-index:1;
+animation:lightFloat 6s ease-in-out infinite;
+}
+
+.light.one{
+width:180px;
+height:180px;
+background:rgba(255,160,202,.35);
+top:5%;
+left:-40px;
+}
+
+.light.two{
+width:220px;
+height:220px;
+background:rgba(125,222,222,.28);
+right:-70px;
+bottom:8%;
+animation-delay:2s;
+}
+
+.light.three{
+width:130px;
+height:130px;
+background:rgba(190,155,230,.28);
+left:35%;
+top:25%;
+animation-delay:1s;
+}
+
+@keyframes lightFloat{
+
+0%,100%{
+transform:translate(0,0) scale(.8);
+opacity:.4;
+}
+
+50%{
+transform:translate(25px,-30px) scale(1.3);
+opacity:.85;
+}
+
+}
+
+.wave{
+position:absolute;
+width:190%;
+height:270px;
+left:-45%;
+bottom:-130px;
+border-radius:50%;
+background:rgba(255,255,255,.28);
+filter:blur(2px);
+animation:waveMove 6s ease-in-out infinite;
+}
+
+.wave.two{
+bottom:-160px;
+animation-duration:9s;
+animation-delay:1s;
+opacity:.65;
+}
+
+.wave.three{
+bottom:-195px;
+animation-duration:12s;
+animation-delay:2s;
+opacity:.45;
+}
+
+@keyframes waveMove{
+
+0%,100%{
+transform:translateX(-6%) rotate(-2deg);
+}
+
+50%{
+transform:translateX(6%) rotate(2deg);
+}
+
+}
+
+.bubble{
+position:absolute;
+bottom:-80px;
+border-radius:50%;
+border:1px solid rgba(255,255,255,.95);
+
+background:
+radial-gradient(
+circle at 30% 25%,
+#ffffff,
+rgba(255,190,220,.35)
+);
+
+box-shadow:
+inset 2px 2px 8px rgba(255,255,255,.9),
+0 0 18px rgba(255,173,211,.35);
+
+animation:bubbleUp linear infinite;
+pointer-events:none;
+z-index:3;
+}
+
+.b1{
+width:18px;
+height:18px;
+left:5%;
+animation-duration:6s;
+}
+
+.b2{
+width:32px;
+height:32px;
+left:16%;
+animation-duration:9s;
+animation-delay:1s;
+}
+
+.b3{
+width:11px;
+height:11px;
+left:28%;
+animation-duration:5s;
+animation-delay:1.5s;
+}
+
+.b4{
+width:25px;
+height:25px;
+left:42%;
+animation-duration:8s;
+animation-delay:2s;
+}
+
+.b5{
+width:16px;
+height:16px;
+left:55%;
+animation-duration:6s;
+}
+
+.b6{
+width:38px;
+height:38px;
+left:68%;
+animation-duration:11s;
+animation-delay:2s;
+}
+
+.b7{
+width:12px;
+height:12px;
+left:80%;
+animation-duration:6s;
+animation-delay:1s;
+}
+
+.b8{
+width:24px;
+height:24px;
+left:91%;
+animation-duration:8s;
+animation-delay:1s;
+}
+
+@keyframes bubbleUp{
+
+0%{
+transform:translateY(0) translateX(0) scale(.5);
+opacity:0;
+}
+
+10%{
+opacity:.9;
+}
+
+45%{
+transform:translateY(-50vh) translateX(30px) scale(1.05);
+}
+
+75%{
+transform:translateY(-80vh) translateX(-25px) scale(1.2);
+}
+
+100%{
+transform:translateY(-120vh) translateX(20px) scale(1.4);
+opacity:0;
+}
+
+}
+
+.sparkle{
+position:absolute;
+color:white;
+
+text-shadow:
+0 0 8px #ffffff,
+0 0 18px #f3a9ca;
+
+animation:sparkle 2s ease-in-out infinite;
+z-index:5;
+}
+
+.s1{
+top:12%;
+left:10%;
+font-size:20px;
+}
+
+.s2{
+top:22%;
+right:12%;
+font-size:15px;
+animation-delay:.5s;
+}
+
+.s3{
+top:50%;
+left:7%;
+font-size:13px;
+animation-delay:1s;
+}
+
+.s4{
+bottom:25%;
+right:15%;
+font-size:25px;
+animation-delay:1.4s;
+}
+
+.s5{
+bottom:15%;
+left:30%;
+font-size:16px;
+animation-delay:.8s;
+}
+
+.s6{
+top:35%;
+right:30%;
+font-size:12px;
+animation-delay:1.8s;
+}
+
+@keyframes sparkle{
+
+0%,100%{
+opacity:.2;
+transform:scale(.5) rotate(0deg);
+}
+
+50%{
+opacity:1;
+transform:scale(1.5) rotate(35deg);
+}
+
+}
+
+.heart{
+position:absolute;
+color:#f29fc3;
+
+text-shadow:
+0 0 10px rgba(255,255,255,.9);
+
+animation:heartFloat 4s ease-in-out infinite;
+z-index:4;
+}
+
+.h1{
+left:13%;
+top:48%;
+font-size:18px;
+}
+
+.h2{
+right:17%;
+top:38%;
+font-size:25px;
+animation-delay:1s;
+}
+
+.h3{
+left:30%;
+bottom:16%;
+font-size:15px;
+animation-delay:2s;
+}
+
+.h4{
+right:30%;
+bottom:25%;
+font-size:18px;
+animation-delay:.6s;
+}
+
+@keyframes heartFloat{
+
+0%,100%{
+transform:translateY(0) scale(.8) rotate(-8deg);
+opacity:.35;
+}
+
+50%{
+transform:translateY(-28px) scale(1.25) rotate(8deg);
+opacity:1;
+}
+
+}
+
+
+/* ================= CHARACTERS ================= */
+
+.character{
+position:absolute;
+z-index:8;
+pointer-events:none;
+
+filter:
+drop-shadow(
+0 10px 18px rgba(100,60,100,.15)
+);
+}
+
+.ariel{
+right:5%;
+bottom:12%;
+font-size:62px;
+animation:arielMove 3.8s ease-in-out infinite;
+}
+
+.sebastian{
+left:6%;
+bottom:14%;
+font-size:48px;
+animation:crabMove 3s ease-in-out infinite;
+}
+
+.flounder{
+right:8%;
+top:17%;
+font-size:45px;
+animation:fishMove 5s ease-in-out infinite;
+}
+
+@keyframes arielMove{
+
+0%,100%{
+transform:translateY(0) rotate(-5deg);
+}
+
+50%{
+transform:translateY(-30px) rotate(6deg);
+}
+
+}
+
+@keyframes crabMove{
+
+0%,100%{
+transform:translateY(0) rotate(-4deg);
+}
+
+50%{
+transform:translateY(-18px) rotate(5deg);
+}
+
+}
+
+@keyframes fishMove{
+
+0%{
+transform:translateX(0) translateY(0) rotate(0);
+}
+
+25%{
+transform:translateX(-20px) translateY(10px) rotate(-6deg);
+}
+
+50%{
+transform:translateX(-40px) translateY(20px) rotate(-8deg);
+}
+
+75%{
+transform:translateX(-15px) translateY(5px) rotate(5deg);
+}
+
+100%{
+transform:translateX(0) translateY(0) rotate(0);
+}
+
+}
+
+
+/* ================= OPENING ================= */
+
+#opening{
+background:
+radial-gradient(
+circle at 50% 8%,
+#ffffff,
+transparent 30%
+),
+radial-gradient(
+circle at 20% 80%,
+rgba(255,184,214,.45),
+transparent 28%
+),
+linear-gradient(
+180deg,
+#fff1f8 0%,
+#d9f8f7 48%,
+#92dfe0 100%
+);
+}
+
+.opening-content{
+position:relative;
+z-index:20;
+text-align:center;
+width:92%;
+max-width:530px;
+}
+
+.small-opening{
+font-size:10px;
+letter-spacing:5px;
+text-transform:uppercase;
+color:#a26f89;
+margin-bottom:16px;
+opacity:0;
+animation:fadeUp 1.2s .3s forwards;
+}
+
+.shell-big{
+width:130px;
+height:130px;
+margin:0 auto 15px;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+border-radius:50%;
+
+background:
+radial-gradient(
+circle at 35% 25%,
+#ffffff,
+#ffd9e8 45%,
+#c99ab6 100%
+);
+
+box-shadow:
+0 15px 45px rgba(225,137,174,.35),
+inset 0 0 28px rgba(255,255,255,.95);
+
+font-size:60px;
+
+animation:
+shellFloat 3.5s ease-in-out infinite,
+fadeScale 1.2s forwards;
+}
+
+.opening-title{
+font-family:'Marck Script',cursive;
+font-size:70px;
+color:#e178a6;
+
+text-shadow:
+0 4px 15px rgba(231,119,164,.2);
+
+margin-bottom:2px;
+
+opacity:0;
+
+animation:fadeUp 1.2s .6s forwards;
+}
+
+.birthday-badge{
+display:inline-block;
+
+padding:8px 20px;
+margin:8px 0;
+
+border-radius:30px;
+
+background:rgba(255,255,255,.7);
+border:1px solid rgba(255,255,255,.95);
+
+color:#a16f88;
+
+font-size:10px;
+letter-spacing:3px;
+text-transform:uppercase;
+
+box-shadow:
+0 8px 25px rgba(230,130,170,.12);
+
+opacity:0;
+
+animation:fadeUp 1.2s .9s forwards;
+}
+
+.six{
+font-family:'Cormorant Garamond',serif;
+font-size:40px;
+font-weight:700;
+color:#c48bcf;
+}
+
+.opening-subtitle{
+font-family:'Cormorant Garamond',serif;
+font-size:24px;
+letter-spacing:2px;
+color:#765e78;
+
+opacity:0;
+
+animation:fadeUp 1.2s 1.1s forwards;
+}
+
+.open-button{
+position:relative;
+
+margin-top:30px;
+
+border:none;
+
+padding:18px 35px;
+
+border-radius:50px;
+
+font-family:'Montserrat',sans-serif;
+
+font-size:12px;
+letter-spacing:2px;
+
+color:white;
+
+background:
+linear-gradient(
+135deg,
+#ee91b6,
+#a987d0,
+#63cbd0
+);
+
+cursor:pointer;
+
+box-shadow:
+0 12px 35px rgba(213,120,170,.35);
+
+transition:.4s;
+
+opacity:0;
+
+animation:
+fadeUp 1.2s 1.4s forwards,
+pulseButton 2s 3s infinite;
+}
+
+.open-button:hover{
+transform:translateY(-5px) scale(1.03);
+}
+
+
+/* ================= CONTENT ================= */
+
+.content{
+width:92%;
+max-width:600px;
+height:88vh;
+
+overflow-y:auto;
+
+text-align:center;
+
+padding:40px 22px 120px;
+
+position:relative;
+z-index:10;
+
+scrollbar-width:none;
+
+touch-action:pan-y;
+}
+
+.content::-webkit-scrollbar{
+display:none;
+}
+
+.kicker{
+font-size:9px;
+letter-spacing:3px;
+text-transform:uppercase;
+color:#a57891;
+margin-bottom:13px;
+}
+
+.script{
+font-family:'Marck Script',cursive;
+color:#d978a4;
+}
+
+.main-title{
+font-family:'Cormorant Garamond',serif;
+
+font-size:40px;
+line-height:1.15;
+
+color:#69516f;
+}
+
+.text{
+font-size:13px;
+line-height:1.9;
+color:#76647c;
+}
+
+.invitation-card{
+background:
+linear-gradient(
+145deg,
+rgba(255,255,255,.88),
+rgba(255,234,244,.78)
+);
+
+border:1px solid rgba(255,255,255,.95);
+border-radius:38px;
+
+padding:35px 22px;
+
+box-shadow:
+0 25px 60px rgba(196,123,165,.16),
+0 5px 25px rgba(115,196,199,.1);
+
+backdrop-filter:blur(10px);
+
+animation:cardFloat 4s ease-in-out infinite;
+}
+
+.name{
+font-family:'Marck Script',cursive;
+font-size:62px;
+color:#df76a5;
+
+margin:10px 0;
+
+text-shadow:
+0 5px 18px rgba(222,116,163,.15);
+}
+
+.age-pretty{
+font-family:'Marck Script',cursive;
+font-size:30px;
+line-height:1.25;
+color:#cf78a3;
+margin:12px auto 8px;
+max-width:320px;
+}
+
+.age-pretty span{
+display:block;
+}
+
+.date{
+margin:22px auto;
+
+display:inline-block;
+
+padding:11px 22px;
+
+border-top:1px solid #d7b86e;
+border-bottom:1px solid #d7b86e;
+
+font-family:'Cormorant Garamond',serif;
+font-size:21px;
+color:#877457;
+}
+
+.countdown-title{
+font-size:9px;
+letter-spacing:2.5px;
+text-transform:uppercase;
+
+margin-top:18px;
+margin-bottom:12px;
+
+color:#a17f95;
+}
+
+.countdown{
+display:flex;
+justify-content:center;
+gap:7px;
+}
+
+.time-box{
+width:63px;
+padding:11px 4px;
+
+background:rgba(255,255,255,.9);
+border-radius:18px;
+
+box-shadow:
+0 10px 25px rgba(200,117,162,.12);
+
+animation:timeFloat 2.5s ease-in-out infinite;
+}
+
+.time-box:nth-child(2){
+animation-delay:.25s;
+}
+
+.time-box:nth-child(3){
+animation-delay:.5s;
+}
+
+.time-box:nth-child(4){
+animation-delay:.75s;
+}
+
+.time-number{
+font-family:'Cormorant Garamond',serif;
+font-size:28px;
+color:#cf78a3;
+}
+
+.time-label{
+font-size:8px;
+letter-spacing:1px;
+color:#a78b9f;
+}
+
+
+/* ================= PHOTO ================= */
+
+.photo-frame{
+position:relative;
+
+width:275px;
+height:340px;
+
+margin:28px auto;
+
+padding:10px;
+
+background:#fffaf5;
+
+border-radius:
+150px 150px
+30px 30px;
+
+box-shadow:
+0 25px 50px rgba(207,119,163,.22);
+
+animation:photoFloat 4s ease-in-out infinite;
+}
+
+.photo-frame::before{
+content:"";
+
+position:absolute;
+inset:-8px;
+
+border:1px solid #d8b873;
+
+border-radius:
+155px 155px
+35px 35px;
+}
+
+.photo-frame img{
+width:100%;
+height:100%;
+
+object-fit:cover;
+
+border-radius:
+140px 140px
+25px 25px;
+}
+
+.photo-caption{
+font-family:'Marck Script',cursive;
+font-size:24px;
+color:#d778a3;
+}
+
+
+/* ================= RESTAURANT ================= */
+
+.restaurant-photo-wrap{
+position:relative;
+
+width:100%;
+max-width:470px;
+
+margin:23px auto 18px;
+
+padding:10px;
+
+background:#fffaf5;
+
+border-radius:30px;
+
+box-shadow:
+0 22px 45px rgba(194,116,162,.18);
+
+animation:restaurantFloat 4s ease-in-out infinite;
+}
+
+.restaurant-photo-wrap::before{
+content:"";
+
+position:absolute;
+inset:-7px;
+
+border:1px solid rgba(212,181,113,.85);
+
+border-radius:35px;
+}
+
+.restaurant-photo{
+display:block;
+
+width:100%;
+height:205px;
+
+object-fit:cover;
+
+border-radius:23px;
+}
+
+.restaurant-photo-label{
+position:absolute;
+
+left:50%;
+bottom:20px;
+
+transform:translateX(-50%);
+
+padding:8px 20px;
+
+border-radius:25px;
+
+background:rgba(255,255,255,.9);
+
+color:#856d7d;
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:17px;
+
+white-space:nowrap;
+}
+
+.location-card{
+margin-top:23px;
+
+padding:25px 18px;
+
+background:rgba(255,255,255,.78);
+
+border-radius:30px;
+
+box-shadow:
+0 15px 35px rgba(195,117,161,.12);
+}
+
+.location-icon{
+font-size:33px;
+margin-bottom:8px;
+}
+
+.restaurant-name{
+font-family:'Cormorant Garamond',serif;
+font-size:27px;
+color:#765b76;
+}
+
+.address{
+font-size:11px;
+line-height:1.8;
+
+margin:8px 0 17px;
+
+color:#8b7589;
+}
+
+.map-button{
+display:inline-flex;
+
+align-items:center;
+gap:8px;
+
+padding:12px 21px;
+
+border-radius:30px;
+
+background:
+linear-gradient(
+135deg,
+#e88caf,
+#aa8bd0
+);
+
+color:white;
+
+text-decoration:none;
+
+font-size:10px;
+letter-spacing:1px;
+
+box-shadow:
+0 10px 25px rgba(201,122,165,.25);
+
+transition:.3s;
+}
+
+.map-button:hover{
+transform:translateY(-3px) scale(1.02);
+}
+
+
+/* ================= PROGRAM ================= */
+
+.program{
+display:grid;
+gap:13px;
+margin-top:23px;
+}
+
+.program-item{
+padding:20px;
+
+background:
+linear-gradient(
+135deg,
+rgba(255,255,255,.86),
+rgba(255,229,241,.75)
+);
+
+border-radius:28px;
+
+border:1px solid rgba(255,255,255,.9);
+
+box-shadow:
+0 12px 30px rgba(194,119,165,.1);
+
+animation:programFloat 3s ease-in-out infinite;
+}
+
+.program-item:nth-child(2){
+animation-delay:.5s;
+}
+
+.program-item:nth-child(3){
+animation-delay:1s;
+}
+
+.program-icon{
+font-size:32px;
+margin-bottom:7px;
+
+animation:iconBounce 2s ease-in-out infinite;
+}
+
+.program-title{
+font-family:'Cormorant Garamond',serif;
+font-size:22px;
+color:#775e79;
+}
+
+.program-text{
+font-size:10.5px;
+line-height:1.7;
+color:#8b758b;
+}
+
+
+/* ================= RSVP ================= */
+
+.rsvp-card{
+margin-top:28px;
+
+padding:30px 18px;
+
+background:
+linear-gradient(
+145deg,
+rgba(255,255,255,.92),
+rgba(255,226,240,.82)
+);
+
+border-radius:35px;
+
+border:1px solid rgba(255,255,255,.95);
+
+box-shadow:
+0 20px 45px rgba(198,116,160,.18);
+}
+
+.rsvp-icon{
+font-size:40px;
+margin-bottom:8px;
+
+animation:heartBeat 1.8s ease-in-out infinite;
+}
+
+.rsvp-title{
+font-family:'Cormorant Garamond',serif;
+font-size:28px;
+color:#735875;
+margin-bottom:7px;
+}
+
+.rsvp-text{
+font-size:11px;
+line-height:1.7;
+color:#8b758b;
+margin-bottom:18px;
+}
+
+.rsvp-name{
+width:100%;
+
+padding:13px 16px;
+
+border-radius:25px;
+
+border:1px solid #edc4d5;
+
+background:rgba(255,255,255,.85);
+
+outline:none;
+
+font-family:'Montserrat',sans-serif;
+
+color:#735875;
+
+margin-bottom:11px;
+}
+
+.rsvp-name::placeholder{
+color:#b59baa;
+}
+
+.rsvp-options{
+display:grid;
+gap:9px;
+}
+
+.rsvp-option{
+width:100%;
+
+padding:14px;
+
+border:none;
+
+border-radius:25px;
+
+font-family:'Montserrat',sans-serif;
+
+font-size:11px;
+
+cursor:pointer;
+
+transition:.3s;
+}
+
+.rsvp-yes{
+background:
+linear-gradient(
+135deg,
+#ec91b4,
+#d978a5
+);
+
+color:white;
+
+box-shadow:
+0 10px 25px rgba(220,112,160,.25);
+}
+
+.rsvp-no{
+background:rgba(255,255,255,.9);
+
+color:#8b7187;
+
+border:1px solid #e6c5d5;
+}
+
+.rsvp-option:hover{
+transform:translateY(-3px) scale(1.01);
+}
+
+.rsvp-message{
+display:none;
+
+margin-top:16px;
+
+padding:13px;
+
+border-radius:20px;
+
+background:rgba(255,255,255,.8);
+
+color:#8b687f;
+
+font-size:10.5px;
+
+line-height:1.6;
+}
+
+.rsvp-message.show{
+display:block;
+animation:fadeUp .5s forwards;
+}
+
+
+/* ================= FINAL ================= */
+
+.final{
+margin-top:32px;
+
+padding:32px 18px;
+
+background:
+linear-gradient(
+135deg,
+rgba(255,255,255,.88),
+rgba(255,224,239,.72)
+);
+
+border-radius:38px;
+
+border:1px solid rgba(255,255,255,.95);
+
+box-shadow:
+0 20px 45px rgba(197,116,160,.13);
+
+animation:finalFloat 3.5s ease-in-out infinite;
+}
+
+.final-script{
+font-family:'Marck Script',cursive;
+font-size:34px;
+color:#d975a3;
+margin-bottom:11px;
+}
+
+.final-text{
+font-family:'Cormorant Garamond',serif;
+font-size:21px;
+line-height:1.5;
+color:#765e78;
+}
+
+
+/* ================= NAVIGATION ================= */
+
+.page-dots{
+position:fixed;
+
+bottom:16px;
+left:50%;
+
+transform:translateX(-50%);
+
+z-index:200;
+
+display:flex;
+align-items:center;
+
+gap:6px;
+
+padding:9px 13px;
+
+border-radius:30px;
+
+background:rgba(255,255,255,.78);
+
+backdrop-filter:blur(10px);
+
+box-shadow:
+0 8px 25px rgba(194,119,162,.16);
+}
+
+.page-dot{
+width:7px;
+height:7px;
+
+border:none;
+
+border-radius:50%;
+
+background:#e4bfd2;
+
+transition:.35s;
+}
+
+.page-dot.active{
+width:22px;
+
+border-radius:20px;
+
+background:
+linear-gradient(
+90deg,
+#e883ac,
+#b58ed2
+);
+}
+
+.page-counter{
+position:fixed;
+
+top:18px;
+left:18px;
+
+z-index:200;
+
+padding:7px 13px;
+
+border-radius:20px;
+
+background:rgba(255,255,255,.72);
+
+backdrop-filter:blur(8px);
+
+color:#98788e;
+
+font-size:9px;
+letter-spacing:1px;
+}
+
+.swipe-hint{
+position:fixed;
+
+bottom:55px;
+left:50%;
+
+transform:translateX(-50%);
+
+z-index:190;
+
+color:#9b778d;
+
+font-size:9px;
+letter-spacing:1px;
+
+white-space:nowrap;
+
+animation:swipeHint 1.8s ease-in-out infinite;
+}
+
+@keyframes swipeHint{
+
+0%,100%{
+transform:translateX(-50%) translateY(0);
+opacity:.4;
+}
+
+50%{
+transform:translateX(-50%) translateY(-9px);
+opacity:1;
+}
+
+}
+
+
+/* ================= MUSIC ================= */
+
+.music-button{
+position:fixed;
+
+top:18px;
+right:18px;
+
+z-index:250;
+
+width:43px;
+height:43px;
+
+border:none;
+
+border-radius:50%;
+
+background:rgba(255,255,255,.8);
+
+backdrop-filter:blur(10px);
+
+box-shadow:
+0 8px 25px rgba(190,111,157,.18);
+
+cursor:pointer;
+
+font-size:17px;
+
+display:none;
+}
+
+.music-button.show{
+display:block;
+animation:musicPulse 2s ease-in-out infinite;
+}
+
+
+/* ================= ANIMATIONS ================= */
+
+@keyframes fadeUp{
+
+from{
+opacity:0;
+transform:translateY(25px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}
+
+@keyframes fadeScale{
+
+from{
+opacity:0;
+transform:scale(.7);
+}
+
+to{
+opacity:1;
+transform:scale(1);
+}
+
+}
+
+@keyframes shellFloat{
+
+0%,100%{
+transform:translateY(0) rotate(-3deg);
+}
+
+50%{
+transform:translateY(-15px) rotate(4deg);
+}
+
+}
+
+@keyframes pulseButton{
+
+0%,100%{
+box-shadow:
+0 12px 25px rgba(213,120,170,.25);
+}
+
+50%{
+box-shadow:
+0 12px 45px rgba(213,120,170,.65);
+}
+
+}
+
+@keyframes cardFloat{
+
+0%,100%{
+transform:translateY(0);
+}
+
+50%{
+transform:translateY(-5px);
+}
+
+}
+
+@keyframes timeFloat{
+
+0%,100%{
+transform:translateY(0);
+}
+
+50%{
+transform:translateY(-5px);
+}
+
+}
+
+@keyframes photoFloat{
+
+0%,100%{
+transform:rotate(-1deg) translateY(0);
+}
+
+50%{
+transform:rotate(1deg) translateY(-8px);
+}
+
+}
+
+@keyframes restaurantFloat{
+
+0%,100%{
+transform:translateY(0);
+}
+
+50%{
+transform:translateY(-6px);
+}
+
+}
+
+@keyframes programFloat{
+
+0%,100%{
+transform:translateY(0);
+}
+
+50%{
+transform:translateY(-5px);
+}
+
+}
+
+@keyframes iconBounce{
+
+0%,100%{
+transform:translateY(0) scale(1);
+}
+
+50%{
+transform:translateY(-7px) scale(1.08);
+}
+
+}
+
+@keyframes heartBeat{
+
+0%,100%{
+transform:scale(1);
+}
+
+20%{
+transform:scale(1.15);
+}
+
+40%{
+transform:scale(1);
+}
+
+}
+
+@keyframes finalFloat{
+
+0%,100%{
+transform:translateY(0);
+}
+
+50%{
+transform:translateY(-7px);
+}
+
+}
+
+@keyframes musicPulse{
+
+0%,100%{
+transform:scale(1);
+}
+
+50%{
+transform:scale(1.08);
+}
+
+}
+
+
+/* ================= MOBILE ================= */
+
+@media(max-width:430px){
+
+.opening-title{
+font-size:59px;
+}
+
+.opening-subtitle{
+font-size:21px;
+}
+
+.main-title{
+font-size:37px;
+}
+
+.name{
+font-size:57px;
+}
+
+.age-pretty{
+font-size:28px;
+max-width:290px;
+}
+
+.photo-frame{
+width:245px;
+height:310px;
+}
+
+.time-box{
+width:59px;
+}
+
+.time-number{
+font-size:25px;
+}
+
+.ariel{
+font-size:48px;
+right:2%;
+}
+
+.sebastian{
+font-size:37px;
+left:2%;
+}
+
+.flounder{
+font-size:36px;
+}
+
+.restaurant-photo{
+height:185px;
+}
+
+.content{
+padding-left:18px;
+padding-right:18px;
+}
+
+.page-dots{
+bottom:12px;
+}
+
+.swipe-hint{
+bottom:52px;
+}
+
+}
+
+@media(prefers-reduced-motion:reduce){
+
+*{
+animation-duration:.01ms !important;
+animation-iteration-count:1 !important;
+transition-duration:.01ms !important;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+<!--
+====================================================
+ՖԱՅԼԵՐԻ ԿԱՌՈՒՑՎԱԾՔԸ
+
+Cnund/
+│
+├── Mane.jpg
+├── hrashqaygi.jpg
+├── cnund.html
+└── ariel.mp3
+
+cnund.html-ը հենց այս HTML ֆայլն է։
+====================================================
+-->
+
+
+<audio
+id="birthdayMusic"
+loop
+preload="auto">
+
+<source
+src="ariel.mp3"
+type="audio/mpeg">
+
+</audio>
+
+
+<button
+class="music-button"
+id="musicButton"
+onclick="toggleMusic()">
+
+🎵
+
+</button>
+
+
+<div
+class="page-counter"
+id="pageCounter">
+
+1 / 6
+
+</div>
+
+
+<!-- ==================================================
+PAGE 1
+================================================== -->
+
+<section
+class="page active"
+id="opening">
+
+<div class="light one"></div>
+<div class="light two"></div>
+<div class="light three"></div>
+
+<div class="water-layer">
+
+<div class="wave"></div>
+<div class="wave two"></div>
+<div class="wave three"></div>
+
+</div>
+
+<div class="bubble b1"></div>
+<div class="bubble b2"></div>
+<div class="bubble b3"></div>
+<div class="bubble b4"></div>
+<div class="bubble b5"></div>
+<div class="bubble b6"></div>
+<div class="bubble b7"></div>
+<div class="bubble b8"></div>
+
+<div class="sparkle s1">✦</div>
+<div class="sparkle s2">✧</div>
+<div class="sparkle s3">✦</div>
+<div class="sparkle s4">✧</div>
+<div class="sparkle s5">✦</div>
+<div class="sparkle s6">✧</div>
+
+<div class="heart h1">♡</div>
+<div class="heart h2">♡</div>
+<div class="heart h3">♡</div>
+<div class="heart h4">♡</div>
+
+<div class="character ariel">
+🧜🏻‍♀️
+</div>
+
+<div class="character sebastian">
+🦀
+</div>
+
+<div class="character flounder">
+🐠
+</div>
+
+<div class="opening-content">
+
+<div class="small-opening">
+
+A little birthday
+under the sea
+
+</div>
+
+<div class="shell-big">
+
+🐚
+
+</div>
+
+<div class="opening-title">
+
+Մանե
+
+</div>
+
+<div class="birthday-badge">
+
+✨ Birthday Celebration ✨
+
+</div>
+
+<div class="opening-subtitle">
+
+Դառնում է
+
+<span class="six">
+6
+</span>
+
+տարեկան
+
+</div>
+
+<button
+class="open-button"
+onclick="openInvitation()">
+
+ԲԱՑԵԼ ՀՐԱՎԻՐԱՏՈՄՍԸ 🐚💗
+
+</button>
+
+</div>
+
+</section>
+
+
+<!-- ==================================================
+PAGE 2
+================================================== -->
+
+<section
+class="page"
+id="page2">
+
+<div class="light one"></div>
+<div class="light two"></div>
+
+<div class="water-layer">
+
+<div class="wave"></div>
+<div class="wave two"></div>
+
+</div>
+
+<div class="bubble b2"></div>
+<div class="bubble b4"></div>
+<div class="bubble b7"></div>
+
+<div class="sparkle s2">✧</div>
+<div class="sparkle s5">✦</div>
+
+<div class="content">
+
+<div class="invitation-card">
+
+<div class="kicker">
+
+A little mermaid celebration
+
+</div>
+
+<div class="main-title">
+
+Սիրով հրավիրում ենք Ձեզ
+
+</div>
+
+<div class="script">
+
+Մանեի ծննդյան տոնին
+
+</div>
+
+<div class="name">
+
+Մանե
+
+</div>
+
+<div class="age-pretty">
+
+<span>Մեր փոքրիկ հրաշքը</span>
+<span>դառնում է արդեն 6 տարեկան ✨</span>
+
+</div>
+
+<div class="date">
+
+31 ՕԳՈՍՏՈՍԻ · 2026
+
+</div>
+
+<p class="text">
+
+Սիրով սպասում ենք Ձեզ՝ միասին
+անցկացնելու մի կախարդական օր՝
+լի ժպիտներով, ծիծաղով,
+հրաշքներով և ամենագեղեցիկ
+հեքիաթային պահերով։ 🧜🏻‍♀️🫧💗
+
+</p>
+
+<div class="countdown-title">
+
+Մինչև մեր կախարդական հանդիպումը
+
+</div>
+
+<div class="countdown">
+
+<div class="time-box">
+
+<div
+class="time-number"
+id="days">
+
+00
+
+</div>
+
+<div class="time-label">
+ՕՐ
+</div>
+
+</div>
+
+<div class="time-box">
+
+<div
+class="time-number"
+id="hours">
+
+00
+
+</div>
+
+<div class="time-label">
+ԺԱՄ
+</div>
+
+</div>
+
+<div class="time-box">
+
+<div
+class="time-number"
+id="minutes">
+
+00
+
+</div>
+
+<div class="time-label">
+ՐՈՊԵ
+</div>
+
+</div>
+
+<div class="time-box">
+
+<div
+class="time-number"
+id="seconds">
+
+00
+
+</div>
+
+<div class="time-label">
+ՎՐԿ
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ==================================================
+PAGE 3
+================================================== -->
+
+<section
+class="page"
+id="page3">
+
+<div class="light one"></div>
+<div class="light three"></div>
+
+<div class="water-layer">
+
+<div class="wave two"></div>
+
+</div>
+
+<div class="bubble b1"></div>
+<div class="bubble b5"></div>
+<div class="bubble b8"></div>
+
+<div class="sparkle s1">✦</div>
+<div class="sparkle s4">✧</div>
+
+<div class="content">
+
+<div class="kicker">
+
+Our little mermaid
+
+</div>
+
+<div class="main-title">
+
+Մեր գեղեցիկ
+
+</div>
+
+<div class="script">
+
+Մանեն ✨
+
+</div>
+
+<div class="photo-frame">
+
+<img
+src="Mane.jpg"
+alt="Մանե">
+
+</div>
+
+<div class="photo-caption">
+
+6 magical years 💗
+
+</div>
+
+<p
+class="text"
+style="margin-top:15px;">
+
+Մի փոքրիկ ծովային հեքիաթ,
+որտեղ ամենագեղեցիկ հերոսուհին
+մեր Մանեն է։ 🧜🏻‍♀️💗
+
+</p>
+
+</div>
+
+</section>
+
+
+<!-- ==================================================
+PAGE 4
+================================================== -->
+
+<section
+class="page"
+id="page4">
+
+<div class="light two"></div>
+<div class="light three"></div>
+
+<div class="water-layer">
+
+<div class="wave"></div>
+<div class="wave two"></div>
+
+</div>
+
+<div class="bubble b2"></div>
+<div class="bubble b6"></div>
+
+<div class="sparkle s3">✦</div>
+<div class="sparkle s6">✧</div>
+
+<div class="content">
+
+<div class="kicker">
+
+The magical place
+
+</div>
+
+<div class="main-title">
+
+Հանդիպում ենք
+
+</div>
+
+<div class="script">
+
+Հրաշք այգում 🌿💗
+
+</div>
+
+<div class="restaurant-photo-wrap">
+
+<img
+class="restaurant-photo"
+src="hrashqaygi.jpg"
+alt="Հրաշք Այգի Restaurant">
+
+<div class="restaurant-photo-label">
+
+Հրաշք Այգի ✨
+
+</div>
+
+</div>
+
+<div class="location-card">
+
+<div class="location-icon">
+📍
+</div>
+
+<div class="restaurant-name">
+
+Հրաշք Այգի Restaurant
+
+</div>
+
+<div
+style="
+margin-top:8px;
+font-family:
+'Cormorant Garamond',
+serif;
+font-size:19px;
+color:#8b7a62;
+">
+
+Տոնական ընթրիքը՝ 18:00-ից
+
+</div>
+
+<div class="address">
+
+Գյուղ Դիտակ<br>
+Գևորգյան փողոց, 1
+
+</div>
+
+<a
+class="map-button"
+href="https://yandex.ru/maps/org/hrashk_aygi/73537021709?si=8zh1a3gq1v15btnp6p40ak23zr"
+target="_blank">
+
+📍 ԻՆՉՊԵՍ ԳՏՆԵԼ
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ==================================================
+PAGE 5
+================================================== -->
+
+<section
+class="page"
+id="page5">
+
+<div class="light one"></div>
+<div class="light two"></div>
+
+<div class="water-layer">
+
+<div class="wave two"></div>
+
+</div>
+
+<div class="bubble b3"></div>
+<div class="bubble b7"></div>
+
+<div class="sparkle s1">✦</div>
+<div class="sparkle s4">✧</div>
+
+<div class="content">
+
+<div class="kicker">
+
+Let's make some magic
+
+</div>
+
+<div
+class="main-title"
+style="
+font-size:34px;
+white-space:nowrap;
+">
+
+Մեզ սպասվում է
+
+</div>
+
+<div class="script">
+
+կախարդական երեկո ✨
+
+</div>
+
+<div class="program">
+
+<div class="program-item">
+
+<div class="program-icon">
+🧜🏻‍♀️
+</div>
+
+<div class="program-title">
+
+Գեղեցիկ շոու ծրագիր
+
+</div>
+
+<div class="program-text">
+
+Կախարդական ներկայացում,
+երաժշտություն և տոնական
+տրամադրություն։
+
+</div>
+
+</div>
+
+<div class="program-item">
+
+<div class="program-icon">
+🪄
+</div>
+
+<div class="program-title">
+
+Ձեր սիրելի մուլտհերոսները
+
+</div>
+
+<div class="program-text">
+
+Հեքիաթային աշխարհի
+սիրելի հերոսները կլինեն
+մեր տոնական օրվա հատուկ հյուրերը։
+
+</div>
+
+</div>
+
+<div class="program-item">
+
+<div class="program-icon">
+🎈
+</div>
+
+<div class="program-title">
+
+Խելահեղ խաղեր
+
+</div>
+
+<div class="program-text">
+
+Շատ ծիծաղ, զվարճալի խաղեր,
+մրցույթներ և անմոռանալի պահեր։
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ==================================================
+PAGE 6
+================================================== -->
+
+<section
+class="page"
+id="page6">
+
+<div class="light one"></div>
+<div class="light two"></div>
+<div class="light three"></div>
+
+<div class="water-layer">
+
+<div class="wave"></div>
+<div class="wave two"></div>
+<div class="wave three"></div>
+
+</div>
+
+<div class="bubble b1"></div>
+<div class="bubble b3"></div>
+<div class="bubble b6"></div>
+<div class="bubble b8"></div>
+
+<div class="sparkle s1">✦</div>
+<div class="sparkle s2">✧</div>
+<div class="sparkle s4">✦</div>
+<div class="sparkle s6">✧</div>
+
+<div class="content">
+
+<div
+class="shell-big"
+style="
+width:105px;
+height:105px;
+font-size:48px;
+">
+
+🐚
+
+</div>
+
+<div class="final">
+
+<div class="final-script">
+
+Սիրով սպասում ենք Ձեզ 💗
+
+</div>
+
+<div class="final-text">
+
+Ձեր ներկայությունը մեր օրվա
+ամենագեղեցիկ նվերն է։ ✨
+
+<br><br>
+
+Սիրով սպասում ենք միասին տոնելու
+այս հիանալի պահը։
+
+<br><br>
+
+🧜🏻‍♀️ 🫧 🐚 ✨
+
+</div>
+
+</div>
+
+
+<!-- ================= RSVP ================= -->
+
+<div class="rsvp-card">
+
+<div class="rsvp-icon">
+💗
+</div>
+
+<div class="rsvp-title">
+
+Կգա՞ք Մանեի 6-ամյակին
+
+</div>
+
+<div class="rsvp-text">
+
+Լրացրեք փոքրիկ հարցումը՝
+մեզ միանալու մասին տեղեկացնելու համար։ ✨
+Ձեր պատասխանը մեզ կօգնի
+պատրաստվել այս կախարդական օրվան։ 💗
+
+</div>
+
+<div
+style="
+font-family:'Cormorant Garamond',serif;
+font-size:19px;
+line-height:1.4;
+color:#8b687f;
+margin-bottom:12px;
+">
+
+Լրացրեք հարցումը՝
+մեզ միանալու համար 💗
+
+</div>
+
+<input
+type="text"
+id="guestName"
+class="rsvp-name"
+placeholder="Գրեք Ձեր անունը ✨">
+
+<div class="rsvp-options">
+
+<button
+class="rsvp-option rsvp-yes"
+onclick="sendRSVP('yes')">
+
+💗 Այո՛, սիրով կմիանամ
+
+</button>
+
+<button
+class="rsvp-option rsvp-no"
+onclick="sendRSVP('no')">
+
+🤍 Ցավոք, չեմ կարողանա միանալ
+
+</button>
+
+</div>
+
+<div
+class="rsvp-message"
+id="rsvpMessage">
+
+</div>
+
+</div>
+
+<div
+style="
+margin-top:30px;
+font-family:'Marck Script',cursive;
+font-size:28px;
+color:#d978a4;
+">
+
+Մանեի 6-ամյակը 💗
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ================= PAGE DOTS ================= -->
+
+<div class="page-dots">
+
+<button
+class="page-dot active"
+onclick="goToPage(0)">
+</button>
+
+<button
+class="page-dot"
+onclick="goToPage(1)">
+</button>
+
+<button
+class="page-dot"
+onclick="goToPage(2)">
+</button>
+
+<button
+class="page-dot"
+onclick="goToPage(3)">
+</button>
+
+<button
+class="page-dot"
+onclick="goToPage(4)">
+</button>
+
+<button
+class="page-dot"
+onclick="goToPage(5)">
+</button>
+
+</div>
+
+
+<div
+class="swipe-hint"
+id="swipeHint">
+
+↑ սահեցրեք վերև՝ շարունակելու համար
+
+</div>
+
+
+<script>
+
+
+/* ==================================================
+PAGE NAVIGATION
+================================================== */
+
+const pages =
+document.querySelectorAll('.page');
+
+const dots =
+document.querySelectorAll('.page-dot');
+
+const counter =
+document.getElementById('pageCounter');
+
+const swipeHint =
+document.getElementById('swipeHint');
+
+let currentPage = 0;
+
+let isAnimating = false;
+
+
+function goToPage(index){
+
+if(isAnimating) return;
+
+if(index < 0)
+index = 0;
+
+if(index > pages.length - 1)
+index = pages.length - 1;
+
+if(index === currentPage)
+return;
+
+isAnimating = true;
+
+const oldIndex = currentPage;
+
+const oldPage =
+pages[oldIndex];
+
+const newPage =
+pages[index];
+
+const goingNext =
+index > oldIndex;
+
+
+pages.forEach(page => {
+
+page.classList.remove(
+'active',
+'from-top',
+'from-bottom',
+'go-up'
+);
+
+});
+
+
+if(goingNext){
+
+newPage.classList.add(
+'from-bottom'
+);
+
+}
+
+else{
+
+newPage.classList.add(
+'from-top'
+);
+
+}
+
+
+oldPage.classList.add(
+'active'
+);
+
+
+if(goingNext){
+
+oldPage.classList.add(
+'go-up'
+);
+
+}
+
+
+newPage.classList.add(
+'active'
+);
+
+
+requestAnimationFrame(() => {
+
+requestAnimationFrame(() => {
+
+newPage.classList.remove(
+'from-bottom',
+'from-top'
+);
+
+oldPage.classList.remove(
+'active'
+);
+
+});
+
+});
+
+
+currentPage = index;
+
+updateNavigation();
+
+
+setTimeout(() => {
+
+isAnimating = false;
+
+},800);
+
+}
+
+
+function nextPage(){
+
+if(
+currentPage <
+pages.length - 1
+){
+
+goToPage(
+currentPage + 1
+);
+
+}
+
+}
+
+
+function previousPage(){
+
+if(currentPage > 0){
+
+goToPage(
+currentPage - 1
+);
+
+}
+
+}
+
+
+function updateNavigation(){
+
+dots.forEach((dot,index)=>{
+
+dot.classList.toggle(
+'active',
+index === currentPage
+);
+
+});
+
+counter.innerText =
+`${currentPage + 1} / ${pages.length}`;
+
+
+if(currentPage > 0){
+
+swipeHint.style.opacity = "0";
+
+}
+
+else{
+
+swipeHint.style.opacity = "1";
+
+}
+
+}
+
+
+/* ==================================================
+OPEN INVITATION
+================================================== */
+
+function openInvitation(){
+
+const music =
+document.getElementById(
+"birthdayMusic"
+);
+
+music.volume = .55;
+
+music.play()
+.then(()=>{
+
+musicPlaying = true;
+
+musicButton.classList.add(
+"show"
+);
+
+})
+.catch(()=>{
+
+musicButton.classList.add(
+"show"
+);
+
+});
+
+goToPage(1);
+
+}
+
+
+/* ==================================================
+MUSIC
+================================================== */
+
+const musicButton =
+document.getElementById(
+"musicButton"
+);
+
+const music =
+document.getElementById(
+"birthdayMusic"
+);
+
+let musicPlaying = false;
+
+
+function toggleMusic(){
+
+if(musicPlaying){
+
+music.pause();
+
+musicPlaying = false;
+
+musicButton.innerHTML =
+"🔇";
+
+}
+
+else{
+
+music.play();
+
+musicPlaying = true;
+
+musicButton.innerHTML =
+"🎵";
+
+}
+
+}
+
+
+/* ==================================================
+COUNTDOWN
+================================================== */
+
+const eventDate =
+new Date(
+"August 31, 2026 18:00:00"
+).getTime();
+
+
+function updateCountdown(){
+
+const now =
+new Date().getTime();
+
+const distance =
+eventDate - now;
+
+
+if(distance <= 0){
+
+document.getElementById(
+"days"
+).innerText = "00";
+
+document.getElementById(
+"hours"
+).innerText = "00";
+
+document.getElementById(
+"minutes"
+).innerText = "00";
+
+document.getElementById(
+"seconds"
+).innerText = "00";
+
+return;
+
+}
+
+
+const days =
+Math.floor(
+distance /
+(1000*60*60*24)
+);
+
+
+const hours =
+Math.floor(
+(
+distance %
+(1000*60*60*24)
+)
+/
+(1000*60*60)
+);
+
+
+const minutes =
+Math.floor(
+(
+distance %
+(1000*60*60)
+)
+/
+(1000*60)
+);
+
+
+const seconds =
+Math.floor(
+(
+distance %
+(1000*60)
+)
+/
+1000
+);
+
+
+document.getElementById(
+"days"
+).innerText =
+String(days).padStart(
+2,"0"
+);
+
+
+document.getElementById(
+"hours"
+).innerText =
+String(hours).padStart(
+2,"0"
+);
+
+
+document.getElementById(
+"minutes"
+).innerText =
+String(minutes).padStart(
+2,"0"
+);
+
+
+document.getElementById(
+"seconds"
+).innerText =
+String(seconds).padStart(
+2,"0"
+);
+
+}
+
+
+updateCountdown();
+
+setInterval(
+updateCountdown,
+1000
+);
+
+
+/* ==================================================
+TOUCH SWIPE
+================================================== */
+
+let startX = 0;
+let startY = 0;
+let startTime = 0;
+
+
+document.addEventListener(
+"touchstart",
+function(e){
+
+if(
+e.touches &&
+e.touches.length
+){
+
+startX =
+e.touches[0].clientX;
+
+startY =
+e.touches[0].clientY;
+
+startTime =
+Date.now();
+
+}
+
+},
+{passive:true}
+);
+
+
+document.addEventListener(
+"touchend",
+function(e){
+
+if(
+!e.changedTouches ||
+!e.changedTouches.length
+){
+
+return;
+
+}
+
+
+const endX =
+e.changedTouches[0].clientX;
+
+const endY =
+e.changedTouches[0].clientY;
+
+const deltaX =
+endX - startX;
+
+const deltaY =
+endY - startY;
+
+const duration =
+Date.now() - startTime;
+
+
+if(duration > 1100)
+return;
+
+
+if(
+Math.abs(deltaY) < 55
+)
+return;
+
+
+if(
+Math.abs(deltaY) <=
+Math.abs(deltaX)
+)
+return;
+
+
+if(deltaY < 0){
+
+nextPage();
+
+}
+
+else{
+
+previousPage();
+
+}
+
+},
+{passive:true}
+);
+
+
+/* ==================================================
+MOUSE WHEEL
+================================================== */
+
+/*
+Համակարգչով մկնիկի անիվը
+օգտագործելով էջերը թերթելու համար։
+
+Wheel ներքև → հաջորդ էջ
+Wheel վերև → նախորդ էջ
+*/
+
+let wheelLocked = false;
+
+
+document.addEventListener(
+"wheel",
+function(e){
+
+/*
+Եթե ներսում կա scroll ունեցող
+content, նախ թույլ ենք տալիս
+այնտեղ scroll անել։
+*/
+
+if(
+e.target.closest(".content")
+){
+
+const content =
+e.target.closest(".content");
+
+
+if(
+content.scrollHeight >
+content.clientHeight
+){
+
+const atTop =
+content.scrollTop <= 0;
+
+const atBottom =
+content.scrollTop +
+content.clientHeight >=
+content.scrollHeight - 2;
+
+
+/*
+Wheel ներքև,
+բայց content-ի ներքևը
+դեռ չի հասել։
+*/
+
+if(
+e.deltaY > 0 &&
+!atBottom
+){
+
+return;
+
+}
+
+
+/*
+Wheel վերև,
+բայց content-ի վերևը
+դեռ չի հասել։
+*/
+
+if(
+e.deltaY < 0 &&
+!atTop
+){
+
+return;
+
+}
+
+}
+
+}
+
+
+/*
+Եթե արդեն էջ ենք փոխում,
+նոր wheel շարժումը չենք ընդունում։
+*/
+
+if(wheelLocked)
+return;
+
+
+/*
+Շատ փոքր շարժումները
+անտեսում ենք։
+*/
+
+if(
+Math.abs(e.deltaY) < 25
+){
+
+return;
+
+}
+
+
+wheelLocked = true;
+
+
+/*
+Wheel ներքև →
+հաջորդ էջ
+*/
+
+if(e.deltaY > 0){
+
+nextPage();
+
+}
+
+/*
+Wheel վերև →
+նախորդ էջ
+*/
+
+else{
+
+previousPage();
+
+}
+
+
+/*
+Սպասում ենք էջի
+animation-ի ավարտին։
+*/
+
+setTimeout(
+function(){
+
+wheelLocked = false;
+
+},
+850
+);
+
+},
+{
+passive:true
+}
+);
+
+
+/* ==================================================
+KEYBOARD
+================================================== */
+
+document.addEventListener(
+"keydown",
+function(e){
+
+if(
+e.key === "ArrowUp" ||
+e.key === "ArrowRight"
+){
+
+nextPage();
+
+}
+
+
+if(
+e.key === "ArrowDown" ||
+e.key === "ArrowLeft"
+){
+
+previousPage();
+
+}
+
+}
+);
+
+
+/* ==================================================
+RSVP
+================================================== */
+
+function sendRSVP(answer){
+
+const name =
+document.getElementById(
+"guestName"
+).value.trim();
+
+
+const message =
+document.getElementById(
+"rsvpMessage"
+);
+
+
+if(!name){
+
+message.innerHTML =
+"💗 Խնդրում ենք գրել Ձեր անունը՝ հարցումը լրացնելու համար։";
+
+message.classList.add(
+"show"
+);
+
+return;
+
+}
+
+
+if(answer === "yes"){
+
+message.innerHTML =
+`💗 Շնորհակալություն, ${name}։
+Մենք մեծ ուրախությամբ սպասում ենք Ձեր միանալուն
+Մանեի կախարդական 6-ամյակին։ 🧜🏻‍♀️✨`;
+
+}
+
+else{
+
+message.innerHTML =
+`🤍 Շնորհակալություն, ${name}։
+Շատ ենք ափսոսում, որ չեք կարողանա
+միանալ մեզ։ Սիրով հիշելու ենք Ձեզ։ 💗`;
+
+}
+
+
+message.classList.add(
+"show"
+);
+
+}
+
+
+/* ==================================================
+INITIAL STATE
+================================================== */
+
+updateNavigation();
+
+</script>
+
+</body>
+
+</html>
